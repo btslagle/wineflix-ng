@@ -10,6 +10,11 @@ import { UserAvatarComponent } from './user-avatar/user-avatar.component';
 import { PrimaryNavigationBarComponent } from './primary-navigation-bar/primary-navigation-bar.component';
 import { PlayButtonComponent } from './play-button/play-button.component';
 import { InfoButtonComponent } from './info-button/info-button.component';
+import { HeroContentComponent } from './hero-content/hero-content.component';
+import { HeroControlComponent } from './hero-control/hero-control.component';
+import { HeroImageComponent } from './hero-image/hero-image.component';
+import { DrinkAgainComponent } from './drink-again/drink-again.component';
+import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { InfoButtonComponent } from './info-button/info-button.component';
     UserAvatarComponent,
     PrimaryNavigationBarComponent,
     PlayButtonComponent,
-    InfoButtonComponent
+    InfoButtonComponent,
+    HeroContentComponent,
+    HeroControlComponent,
+    HeroImageComponent,
+    DrinkAgainComponent,
+    KeepDrinkingComponent
   ],
   imports: [
     BrowserModule,
