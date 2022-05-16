@@ -8,6 +8,8 @@ import { LogoComponent } from './logo/logo.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { UserAvatarComponent } from './user-avatar/user-avatar.component';
 import { PrimaryNavigationBarComponent } from './primary-navigation-bar/primary-navigation-bar.component';
+import { PlayButtonComponent } from './play-button/play-button.component';
+import { InfoButtonComponent } from './info-button/info-button.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { PrimaryNavigationBarComponent } from './primary-navigation-bar/primary-
     LogoComponent,
     NavigationBarComponent,
     UserAvatarComponent,
-    PrimaryNavigationBarComponent
+    PrimaryNavigationBarComponent,
+    PlayButtonComponent,
+    InfoButtonComponent
   ],
   imports: [
     BrowserModule,
