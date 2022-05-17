@@ -1,4 +1,8 @@
-# WineFlix
+# Depolyed site url:
+ [Deployed site](https://friendly-fudge-ff62cf.netlify.app/)
+
+
+## WineFlix
 
 ![Wineflix demo](./wineflix.jpg)
 
