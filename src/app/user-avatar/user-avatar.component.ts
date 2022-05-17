@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-avatar.component.css']
 })
 export class UserAvatarComponent {
-
-  
+  url = "https://developer.mozilla.org";
+  initials = "BS";
 
 }

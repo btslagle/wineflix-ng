@@ -11,5 +11,5 @@ export class KeepDrinkingComponent {
   @Input() isFinished?: boolean;
   @Input() imageUrl = "";
   @Input() label = "";
-
+  
 }

@@ -7,5 +7,5 @@ import {faPlay} from '@fortawesome/free-solid-svg-icons';
 })
 export class PlayButtonComponent  {
   faPlay = faPlay
-  
-}
+  drink = "Drink";
+  }

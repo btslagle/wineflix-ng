@@ -8,5 +8,5 @@ import {faInfoCircle} from '@fortawesome/free-solid-svg-icons';
 })
 export class InfoButtonComponent  {
   faInfoCircle = faInfoCircle
-  
+  info = "More Info"
 }

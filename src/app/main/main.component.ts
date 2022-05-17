@@ -8,6 +8,7 @@ import { wines } from '../data';
 export class MainComponent {
   wines = wines;
   wineLists = this.wines;
-  
+  drink = "Drink Again";
+  keepDrinking = "Keep Drinking";
 
 }
