@@ -1,20 +1,16 @@
 import { Component, Input } from '@angular/core';
-import { wines } from "../data";
-
-type Wine = {
-  id: number;
-  imageUrl: string;
-  isNew?: boolean;
-  label: string;
-  isFinished?: boolean;
-  progress?: number;
-}
+import { wines } from '../data';
 
 @Component({
   selector: 'app-drink-again',
   templateUrl: './drink-again.component.html',
   styleUrls: ['./drink-again.component.css']
 })
+
 export class DrinkAgainComponent {
-  wines: Wine[] = wines;
+  wine = wines;
+  @Input() isNew?: boolean;
+  @Input() imageUrl = "";
+  @Input() label = "";
+  new = "New";
 }

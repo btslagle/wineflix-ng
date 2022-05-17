@@ -1,4 +1,19 @@
 <main>
-    <app-drink-again></app-drink-again>
-    <app-keep-drinking></app-keep-drinking>
+    <section class="category">
+        <h2>Drink Again</h2>
+        <ul>
+            <li *ngFor="let wineList of wineLists">
+                <app-drink-again [imageUrl]="wineList.imageUrl" [label]="wineList.label" [isNew]="wineList.isNew"></app-drink-again>
+            </li>
+        </ul>
+    </section>
+    <section class="category">
+        <h2>Keep Drinking</h2>
+        <ul>
+            <li *ngFor="let wineList of wineLists">
+                <app-keep-drinking [imageUrl]="wineList.imageUrl" [label]="wineList.label" [isFinished]="wineList.isFinished"></app-keep-drinking>
+            </li>
+        </ul>
+    </section>
+
 </main>
